@@ -21,7 +21,7 @@ jobs:
       with:
         cli: 'latest'
     - name: Run tests
-      run: clojure -M:test
+      run: clojure -X:test
 
 
   shadow-cljs-compile:
