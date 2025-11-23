@@ -1,0 +1,5 @@
+description="Execute Clojure Code with babashka"
+prompt="""Execute the argument of the users using babashka.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -e {{args}}}
+"""

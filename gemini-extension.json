@@ -1,0 +1,16 @@
+{
+  "name": "gemini-cli-babashka",
+  "version": "0.0.1",
+  "contextFileName": "GEMINI.md",
+  "settings": {
+    "BABASHKA_NREPL_SERVER_PORT": 1668,
+    "GEMINI_CLI_BABASHK_FOLDER": "${extensionPath}"
+  },
+  "mcpServers": {
+    "nodeServer": {
+      "command": "/usr/bin/bash",
+      "args": ["-c", "${extensionPath}${/}install.sh"],
+      "cwd": "${extensionPath}"
+    }
+  }
+}

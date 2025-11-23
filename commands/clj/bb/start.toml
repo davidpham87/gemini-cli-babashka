@@ -1,0 +1,5 @@
+description="Start a clojure babashka nrepl server"
+prompt="""Start a babashka nrepl server
+
+!{bb nrepl-server $BABASHKA_NREPL_SERVER_PORT --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn}
+"""
