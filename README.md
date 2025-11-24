@@ -18,3 +18,9 @@ This repos only focus on custom commands.
   + http server and client
   + vega-lite support
 
+# Usage of clojure-mcp-light
+
+We rely on the library to provide us the nrepl client and the necessary edting commands.
+
+https://github.com/bhauman/clojure-mcp-light/blob/main/src/clojure_mcp_light/nrepl_client.clj
+
