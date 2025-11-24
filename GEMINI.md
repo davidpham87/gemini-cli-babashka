@@ -1,13 +1,26 @@
-# Clojure
+# Gemini CLI Extension: Clojure/Babashka
 
-* Start a nrepl server at start
-* Allow both cold execution of code and local server evaluation
-* Adds many defaults libraries for performing typcial data transformation task:
-  + Portal
-  + malli
-  + datascript
-  + honeysql
-  + data converter between json, yaml and edn
-  + html generatiok with hiccup
-  + http server and client
-  + vega-lite support
+You are operating in a Clojure/Babashka environment. This environment allows you to execute dynamic and succinct Clojure code to generate insights and perform tasks.
+
+## Capabilities
+
+*   **Execution**: You can run Clojure code.
+*   **REPL**: A nREPL server is available for interactive evaluation.
+
+## Available Libraries
+
+The following libraries are available for data transformation and analysis:
+
+*   **Portal** (`djblue/portal`): A UI for inspecting values.
+*   **Malli** (`metosin/malli`): Data validation and specification.
+*   **Datascript**: An immutable in-memory database and Datalog query engine.
+*   **HoneySQL** (`com.github.seancorfield/honeysql`): SQL generation from Clojure data structures.
+*   **Data Converters**:
+    *   **JSON**: `org.babashka/json` or `cheshire`.
+    *   **YAML**: `clj-yaml` (built-in for Babashka).
+    *   **EDN**: Standard Clojure EDN support.
+*   **Hiccup**: HTML generation using Clojure vectors.
+*   **HTTP**: `http-kit` or `babashka.http-client` for making requests and serving content.
+*   **Vega-Lite**: Support for generating Vega-Lite visualizations (via JSON/EDN data structures).
+
+Use these libraries to efficiently solve problems by writing and executing Clojure code.
