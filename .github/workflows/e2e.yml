@@ -1,0 +1,21 @@
+name: End-to-End Tests
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Set up Clojure
+        uses: actions/setup-clojure@v1
+        with:
+          clojure-version: '1.11.1'
+      - name: Install Babashka
+        run: |
+          curl -sL https://raw.githubusercontent.com/babashka/babashka/master/install | sudo bash
+      - name: Install Gemini CLI
+        uses: GoogleCloudPlatform/gemini-cli-github-action@v1
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+      - name: Run tests
+        run: clojure -X:test
