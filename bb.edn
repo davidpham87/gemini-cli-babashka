@@ -1,8 +1,11 @@
-{:paths ["src"]
+{:paths ["src" "commands"]
  :deps {   org.babashka/json    {:mvn/version "0.1.6"}
            metosin/malli        {:mvn/version "0.20.0-alpha3"}
            djblue/portal        {:mvn/version "0.62.0"}
            com.github.seancorfield/honeysql {:mvn/version "2.7.1350"}
            camel-snake-kebab/camel-snake-kebab {:mvn/version "0.4.3"}
-           zprint/zprint {:mvn/version "1.3.0"}}
+           zprint/zprint {:mvn/version "1.3.0"}
+           nrepl/nrepl {:mvn/version "1.4.0"}
+           cider/cider-nrepl {:mvn/version "0.58.0"}
+           nrepl/clj-client {:mvn/version "0.5.0"}}
  :tasks {}}

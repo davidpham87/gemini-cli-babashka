@@ -1,0 +1,4 @@
+description = "Restarts the nREPL server."
+prompt = """
+!{bb -x gemini.nrepl/restart!}
+"""

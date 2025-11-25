@@ -1,0 +1,4 @@
+description = "Executes a string of Clojure code in the nREPL server."
+prompt = """
+!{bb -x commands.run/run-code "{{args}}"}
+"""
