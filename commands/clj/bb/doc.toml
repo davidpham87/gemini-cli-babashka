@@ -1,0 +1,5 @@
+description="Get the doc and source of a clojure function"
+prompt="""Get the doc and source of a clojure function.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -m doc {{args}}}
+"""
