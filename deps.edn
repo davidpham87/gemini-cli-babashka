@@ -5,7 +5,8 @@
            metosin/malli        {:mvn/version "0.20.0-alpha3"}
            djblue/portal        {:mvn/version "0.62.0"}
            com.github.seancorfield/honeysql {:mvn/version "2.7.1350"}
-           camel-snake-kebab/camel-snake-kebab {:mvn/version "0.4.3"}}
+           camel-snake-kebab/camel-snake-kebab {:mvn/version "0.4.3"}
+           borkdude/sci {:mvn/version "0.8.41"}}
 
  :aliases 
  {:cljs 

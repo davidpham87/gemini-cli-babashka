@@ -1,0 +1,5 @@
+description="Generate data from a malli schema"
+prompt="""Generate data from the malli schema provided by the user.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -m malli-gen -e "{{args}}"}
+"""

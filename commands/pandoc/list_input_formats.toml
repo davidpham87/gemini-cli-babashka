@@ -1,0 +1,5 @@
+description="List pandoc input formats"
+prompt="""List the available input formats for pandoc.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -m pandoc-convert --list-input-formats}
+"""

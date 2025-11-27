@@ -1,0 +1,5 @@
+description="Transform data using a provided function"
+prompt="""Transform the data using the provided function. The first argument is the data, and the second is the transformation function.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -m data-transform -e "{{args}}"}
+"""

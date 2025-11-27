@@ -1,0 +1,5 @@
+description="Convert data from one format to another using pandoc"
+prompt="""Converts the given data from one format to another using pandoc. The first argument is the input format, the second is the output format, and the third is the data to convert.
+
+!{bb --config ~/.gemini/extensions/gemini-cli-babashka/bb.edn -m pandoc-convert -e "{{args}}"}
+"""
